@@ -1,0 +1,100 @@
+body, h1, h2, div, span, p, label, button{
+    font-family: Arial;
+    color: rgb(32,10,100);
+}
+
+a{
+    color: rgb(38, 158, 149);
+}
+
+a:hover{
+    color: rgb(32,10,100);
+}
+
+body{
+    background: #000000 url(space.jpg) no-repeat 50% 50%;
+
+}
+
+.boxes{
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+}
+
+#twitter_widget{
+    width: 250px;
+    height: 600px;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    float: left;
+}
+
+form{
+    width: 285px;
+    overflow: hidden;
+}
+
+form p{
+    clear: both;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+label{
+    float: left;
+    padding: 3px 0;
+}
+
+input[type="text"]{
+    width: 200px;
+    float: right;
+}
+
+input[type="radio"]{
+    width: 16px;
+    float: left;
+    margin-top: 5px;
+}
+
+button{
+    background: rgb(32,10,100);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+button:hover{
+    background: rgb(22, 202, 236);
+}
+
+#my_pic{
+    width: 250px;
+    height: 250px;
+}
+
+.auto_width{
+    width: auto;
+}
